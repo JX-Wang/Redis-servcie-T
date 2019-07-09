@@ -1,5 +1,11 @@
 # usr/bin/env python
 # coding:utf-8
+"""
+redis Notes
+============
+Date@2019/7/9
+Author@Wangjunxiong
+"""
 
 import redis
 
@@ -8,4 +14,3 @@ try:
     r.get("msg")
 except Exception as e:
     print "Connect Error as -> ", str(e)
-
